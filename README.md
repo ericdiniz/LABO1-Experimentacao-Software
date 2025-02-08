@@ -83,10 +83,6 @@ jupyter notebook
 
 Os resultados finais, gráficos e insights estarão disponíveis no arquivo **report.md**.
 
-📅 **Prazo final:**
-- **Grupo 1:** até 10/03 | Apresentação: 11/03
-- **Grupo 2:** até 06/03 | Apresentação: 07/03
-
 ---
 
 ## 📜 **Licença**
