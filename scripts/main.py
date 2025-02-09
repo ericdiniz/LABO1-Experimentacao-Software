@@ -1,21 +1,18 @@
-import json
-from queries.queries_repository import queries_repository
-from fetch_data import fetch_github_data
+from scripts.queries.fetch_data import fetch_popular_repositories
 
-# Executa a query e exibe os resultados formatados
+def main():
+    """Executa a consulta GraphQL e exibe os 100 repositórios mais populares."""
+    print("\n🔍 Buscando os 100 repositórios mais populares no GitHub...\n")
+    repos = fetch_popular_repositories()
+
+    if repos:
+        for i, repo in enumerate(repos, 1):
+            print(f"{i}. {repo['Nome']} - {repo['Dono']}")
+            print(f"   ⭐ Estrelas: {repo['Estrelas']} | 🍴 Forks: {repo['Forks']}")
+            print(f"   📅 Criado em: {repo['Criado em']}")
+            print(f"   📝 Descrição: {repo['Descrição']}\n")
+    else:
+        print("❌ Falha ao buscar repositórios.")
+
 if __name__ == "__main__":
-    try:
-        result = fetch_github_data(query_repo)
-        repo_data = result.get("data", {}).get("repository", {})
-
-        if repo_data:
-            print("\n📌 Repositório: ", repo_data["name"])
-            print("📝 Descrição: ", repo_data["description"])
-            print("⭐ Estrelas: ", repo_data["stargazers"]["totalCount"])
-            print("🔄 Forks: ", repo_data["forks"]["totalCount"])
-            print("📅 Criado em: ", repo_data["createdAt"])
-        else:
-            print("❌ Nenhum dado encontrado.")
-
-    except Exception as e:
-        print(f"\n❌ Erro ao buscar dados: {e}")
+    main()

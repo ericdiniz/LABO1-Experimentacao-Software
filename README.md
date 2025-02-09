@@ -27,23 +27,58 @@ Para responder a essas perguntas, coletamos **dados de 1.000 repositórios mais 
 - **Python 3.x** → Processamento e análise dos dados
 - **GraphQL API do GitHub** → Extração das métricas dos repositórios
 - **Requests** → Requisições à API
+- **Dotenv** → Gerenciamento seguro do token do GitHub
 - **Pandas** → Manipulação dos dados
 - **Matplotlib & Seaborn** → Visualização dos resultados
 - **Jupyter Notebook** → Análises exploratórias
 
 ---
 
-## 📚 **Estrutura do Repositório**\
+## 📚 **Mudanças Recentes**
+
+Durante o desenvolvimento, fizemos as seguintes modificações:
+
+1. **Reestruturação do código:**
+   - Criamos um módulo separado para queries GraphQL (`queries_repository.py`).
+   - `fetch_data.py` agora apenas executa a requisição e trata os dados.
+   - `main.py` faz a chamada final e exibe os resultados no terminal.
+
+2. **Correção de erros:**
+   - Ajustamos erros de `KeyError` ao acessar campos ausentes na resposta da API.
+   - Modificamos a query GraphQL para evitar timeouts e melhorar a performance.
+   - Incluímos prints de debug para facilitar o acompanhamento das requisições.
+
+3. **Aprimoramento da Query:**
+   - Inicialmente, a consulta retornava apenas `name`, agora também busca:
+     - `owner { login }`
+     - `description`
+     - `stargazers { totalCount }`
+     - `forks { totalCount }`
+     - `createdAt`
+
+4. **Melhorias na execução:**
+   - O ambiente virtual (`venv/` ou `myenv/`) foi configurado para evitar conflitos.
+   - Criamos um `.gitignore` para evitar que arquivos desnecessários fossem versionados.
+
+---
+
+## 📚 **Estrutura do Repositório**
 
 ```text
 📝 LAB01
  ┣ 📂 scripts/        # Scripts para coleta e processamento de dados
- ┣ 📂 data/           # Arquivos CSV e JSON com os dados coletados
- ┣ 📂 notebooks/      # Análises exploratórias e gráficos
- ┣ 📄 report.md       # Relatório final do laboratório
- ┣ 📄 requirements.txt # Dependências do projeto
- ┣ 📄 run.sh          # Script de execução (se necessário)
- ┗ 📄 README.md       # Documentação do repositório
+ ┃ ┣ 📂 queries/      # Módulo de consultas GraphQL
+ ┃ ┃ ┣ 📄 queries_repository.py  # Define as queries usadas na API do GitHub
+ ┃ ┃ ┣ 📄 fetch_data.py         # Executa as requisições GraphQL
+ ┃ ┃ ┗ 📄 __init__.py           # Indica que queries/ é um pacote Python
+ ┃ ┣ 📄 main.py                 # Ponto de entrada do projeto
+ ┣ 📂 data/                     # Arquivos CSV e JSON com os dados coletados
+ ┣ 📂 notebooks/                # Análises exploratórias e gráficos
+ ┣ 📄 report.md                 # Relatório final do laboratório
+ ┣ 📄 requirements.txt          # Dependências do projeto
+ ┣ 📄 .gitignore                # Define arquivos que não serão versionados
+ ┣ 📄 README.md                 # Documentação do repositório
+ ┗ 📄 .env                      # Armazena variáveis de ambiente (NÃO versionado)
 ```
 
 **Nota:** O diretório do ambiente virtual (`venv/` ou `myenv/`) **não deve ser versionado**. Certifique-se de que ele está incluído no `.gitignore`.
@@ -59,11 +94,11 @@ git clone https://github.com/seu-usuario/lab01.git
 cd lab01
 ```
 
-2️⃣ **Crie um ambiente virtual (recomendado):**
+2️⃣ **Crie um ambiente virtual e ative-o:**
 
 ```sh
-python3 -m venv venv
-source venv/bin/activate  # (No Windows use: venv\Scripts\activate)
+python3 -m venv myenv
+source myenv/bin/activate  # (No Windows use: myenv\Scripts\activate)
 ```
 
 3️⃣ **Instale as dependências:**
@@ -72,17 +107,19 @@ source venv/bin/activate  # (No Windows use: venv\Scripts\activate)
 pip install -r requirements.txt
 ```
 
-4️⃣ **Execute a coleta de dados:**
+4️⃣ **Configure o arquivo `.env` com seu token do GitHub:**
+Crie um arquivo `.env` na raiz do projeto e adicione:
 
 ```sh
-python scripts/github_query.py
+echo "GITHUB_TOKEN=seu_token_aqui" > .env
 ```
 
-5️⃣ **Analise os dados:**
-Abra o **Jupyter Notebook** e explore as métricas coletadas:
+⚠ **Atenção:** Nunca compartilhe esse token publicamente!
+
+5️⃣ **Execute o projeto:**
 
 ```sh
-jupyter notebook
+python -m scripts.main
 ```
 
 ---
