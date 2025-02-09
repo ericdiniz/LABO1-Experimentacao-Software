@@ -1,0 +1,16 @@
+# Ambientes virtuais
+myenv/
+venv/
+.env
+
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Configurações do VSCode
+.vscode/
+
+# Dependências do sistema
+.DS_Store
+Thumbs.db
