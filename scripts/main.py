@@ -1,8 +1,8 @@
 from scripts.queries.fetch_data import fetch_popular_repositories
 
 def main():
-    """Executa a consulta GraphQL e exibe os 100 repositórios mais populares."""
-    print("\n🔍 Buscando os 100 repositórios mais populares no GitHub...\n")
+    """Executa a consulta GraphQL e exibe os 1.000 repositórios mais populares."""
+    print("\n🔍 Buscando os 1.000 repositórios mais populares no GitHub...\n")
     repos = fetch_popular_repositories()
 
     if repos:
