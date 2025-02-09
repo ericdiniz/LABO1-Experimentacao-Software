@@ -33,9 +33,9 @@ Para responder a essas perguntas, coletamos **dados de 1.000 repositórios mais 
 
 ---
 
-## 📚 **Estrutura do Repositório**
+## 📚 **Estrutura do Repositório**\
 
-```
+```text
 📝 LAB01
  ┣ 📂 scripts/        # Scripts para coleta e processamento de dados
  ┣ 📂 data/           # Arquivos CSV e JSON com os dados coletados
@@ -53,29 +53,34 @@ Para responder a essas perguntas, coletamos **dados de 1.000 repositórios mais 
 ## 🛠 **Como Rodar o Projeto**
 
 1️⃣ **Clone o repositório:**
+
 ```sh
 git clone https://github.com/seu-usuario/lab01.git
 cd lab01
 ```
 
 2️⃣ **Crie um ambiente virtual (recomendado):**
+
 ```sh
 python3 -m venv venv
 source venv/bin/activate  # (No Windows use: venv\Scripts\activate)
 ```
 
 3️⃣ **Instale as dependências:**
+
 ```sh
 pip install -r requirements.txt
 ```
 
 4️⃣ **Execute a coleta de dados:**
+
 ```sh
 python scripts/github_query.py
 ```
 
 5️⃣ **Analise os dados:**
 Abra o **Jupyter Notebook** e explore as métricas coletadas:
+
 ```sh
 jupyter notebook
 ```
