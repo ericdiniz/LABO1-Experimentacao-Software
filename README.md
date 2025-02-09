@@ -33,17 +33,20 @@ Para responder a essas perguntas, coletamos **dados de 1.000 repositórios mais 
 
 ---
 
-## 📂 **Estrutura do Repositório**
+## 📚 **Estrutura do Repositório**
 
 ```
-📦 LAB01
+📝 LAB01
  ┣ 📂 scripts/        # Scripts para coleta e processamento de dados
  ┣ 📂 data/           # Arquivos CSV e JSON com os dados coletados
  ┣ 📂 notebooks/      # Análises exploratórias e gráficos
- ┣ 📜 report.md       # Relatório final do laboratório
- ┣ 📜 requirements.txt # Dependências do projeto
- ┗ 📜 README.md       # Documentação do repositório
+ ┣ 📄 report.md       # Relatório final do laboratório
+ ┣ 📄 requirements.txt # Dependências do projeto
+ ┣ 📄 run.sh          # Script de execução (se necessário)
+ ┗ 📄 README.md       # Documentação do repositório
 ```
+
+**Nota:** O diretório do ambiente virtual (`venv/` ou `myenv/`) **não deve ser versionado**. Certifique-se de que ele está incluído no `.gitignore`.
 
 ---
 
@@ -55,7 +58,7 @@ git clone https://github.com/seu-usuario/lab01.git
 cd lab01
 ```
 
-2️⃣ **Crie um ambiente virtual (opcional, recomendado):**
+2️⃣ **Crie um ambiente virtual (recomendado):**
 ```sh
 python3 -m venv venv
 source venv/bin/activate  # (No Windows use: venv\Scripts\activate)
@@ -85,10 +88,19 @@ Os resultados finais, gráficos e insights estarão disponíveis no arquivo **re
 
 ---
 
-## 📜 **Licença**
+## 🐝 **Boas Práticas e Contribuição**
+
+- Certifique-se de ativar o ambiente virtual antes de rodar qualquer código.
+- Use `requirements.txt` para manter um controle das dependências.
+- O diretório `venv/` **não deve ser versionado**.
+- Se desejar contribuir, faça um fork e abra um Pull Request.
+
+---
+
+## 📝 **Licença**
 
 Este projeto é apenas para fins acadêmicos e segue as diretrizes do curso.
 
 ---
 
-Se precisar de ajustes ou quiser adicionar algo mais, me avise! 🚀😊
+Se precisar de mais ajustes, me avise! 🚀😊
