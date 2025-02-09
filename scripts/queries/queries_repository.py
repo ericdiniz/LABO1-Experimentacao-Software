@@ -1,6 +1,6 @@
 QUERY_POPULAR_REPOS = """
 {
-  search(query: "stars:>1000", type: REPOSITORY, first: 5) {
+  search(query: "stars:>0", type: REPOSITORY, first: 3) {
     edges {
       node {
         ... on Repository {
