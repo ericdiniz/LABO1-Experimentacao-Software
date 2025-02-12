@@ -4,9 +4,9 @@ import time
 from dotenv import load_dotenv
 from scripts.queries.queries_repository import QUERY_POPULAR_REPOS
 
+# Carrega variáveis de ambiente do arquivo .env
 load_dotenv()
 TOKEN = os.getenv("GITHUB_TOKEN")
-
 GITHUB_API_URL = "https://api.github.com/graphql"
 
 def fetch_popular_repositories():
@@ -15,7 +15,7 @@ def fetch_popular_repositories():
     all_repositories = []
     after_cursor = None
     max_attempts = 5
-    timeout_seconds = 30
+    timeout_seconds = 60  # Aumentando o timeout para evitar erros
 
     while len(all_repositories) < 100:
         variables = {"afterCursor": after_cursor}
@@ -44,7 +44,12 @@ def fetch_popular_repositories():
                             "Descrição": node.get("description", "Sem descrição"),
                             "Estrelas": node.get("stargazers", {}).get("totalCount", 0),
                             "Forks": node.get("forks", {}).get("totalCount", 0),
-                            "Criado em": node.get("createdAt", "Data não disponível")
+                            "Criado em": node.get("createdAt", "Data não disponível"),
+                            "Linguagem": node.get("primaryLanguage", {}).get("name", "Não especificada"),
+                            "Commits": node.get("defaultBranchRef", {}).get("target", {}).get("history", {}).get("totalCount", 0),
+                            "Issues Abertas": node.get("issues", {}).get("totalCount", 0),
+                            "Issues Fechadas": node.get("closedIssues", {}).get("totalCount", 0),
+                            "Releases": node.get("releases", {}).get("totalCount", 0)
                         })
 
                     print(f"📊 {len(all_repositories)}/100 repositórios coletados...")
@@ -55,7 +60,7 @@ def fetch_popular_repositories():
                         print("✅ Coleta de repositórios concluída!")
                         return all_repositories
 
-                    break
+                    break  # Sai do loop de tentativas se a resposta for 200
 
                 elif response.status_code == 502:
                     wait_time = min(60, 2 ** attempt)
@@ -74,6 +79,11 @@ def fetch_popular_repositories():
 
             except requests.exceptions.ReadTimeout:
                 print(f"⚠️ Timeout! Tentando novamente ({attempt+1}/{max_attempts}) em 5s...")
+                time.sleep(5)
+                attempt += 1
+
+            except requests.exceptions.ChunkedEncodingError:
+                print(f"⚠️ Erro 'Response ended prematurely'. Tentando novamente ({attempt+1}/{max_attempts}) em 5s...")
                 time.sleep(5)
                 attempt += 1
 

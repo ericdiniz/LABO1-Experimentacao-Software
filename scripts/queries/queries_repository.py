@@ -17,6 +17,27 @@ query ($afterCursor: String) {
             totalCount
           }
           createdAt
+          primaryLanguage {
+            name
+          }
+          releases {
+            totalCount
+          }
+          issues(states: OPEN) {
+            totalCount
+          }
+          closedIssues: issues(states: CLOSED) {
+            totalCount
+          }
+          defaultBranchRef {
+            target {
+              ... on Commit {
+                history(first: 1) {
+                  totalCount
+                }
+              }
+            }
+          }
         }
       }
     }

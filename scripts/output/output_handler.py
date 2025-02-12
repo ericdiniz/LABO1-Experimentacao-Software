@@ -10,7 +10,10 @@ def save_to_csv(repositories, filename="repos.csv"):
 
     with open(filepath, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
-        writer.writerow(["Nome", "Dono", "Descrição", "Estrelas", "Forks", "Criado em"])
+        writer.writerow([
+            "Nome", "Dono", "Descrição", "Estrelas", "Forks", "Criado em",
+            "Linguagem", "Commits", "Issues Abertas", "Issues Fechadas", "Releases"
+        ])
 
         for repo in repositories:
             writer.writerow([
@@ -19,7 +22,12 @@ def save_to_csv(repositories, filename="repos.csv"):
                 repo["Descrição"],
                 repo["Estrelas"],
                 repo["Forks"],
-                repo["Criado em"]
+                repo["Criado em"],
+                repo["Linguagem"],
+                repo["Commits"],
+                repo["Issues Abertas"],
+                repo["Issues Fechadas"],
+                repo["Releases"]
             ])
 
     print(f"📁 Dados salvos em: {filepath}")
