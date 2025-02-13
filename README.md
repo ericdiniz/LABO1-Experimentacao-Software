@@ -4,7 +4,6 @@
 
 Este repositório contém a implementação do **Lab01**, onde analisamos as características de repositórios open-source populares no GitHub utilizando **GraphQL e Python**. O objetivo é coletar e estudar métricas que ajudam a responder perguntas sobre a popularidade, contribuições e evolução dos projetos.
 
-
 ## 📊 **Objetivo do Projeto**
 
 O estudo tem como foco responder as seguintes **Questões de Pesquisa (RQs):**
@@ -18,7 +17,6 @@ O estudo tem como foco responder as seguintes **Questões de Pesquisa (RQs):**
 7. **(Bônus) Linguagens influenciam nas métricas?**
 
 Para responder a essas perguntas, coletamos **dados de 1.000 repositórios mais populares** no GitHub.
-
 
 ## 🚀 **Tecnologias Utilizadas**
 
