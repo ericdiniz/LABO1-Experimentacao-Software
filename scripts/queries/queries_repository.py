@@ -17,16 +17,20 @@ query ($afterCursor: String) {
             totalCount
           }
           createdAt
+          updatedAt
           primaryLanguage {
             name
           }
           releases {
             totalCount
           }
-          issues(states: OPEN) {
+          issues {
             totalCount
           }
           closedIssues: issues(states: CLOSED) {
+            totalCount
+          }
+          pullRequests(states: MERGED) {  # <-- Adicionado para RQ 02
             totalCount
           }
           defaultBranchRef {
