@@ -1,101 +1,101 @@
-Nome,Dono,Descrição,Estrelas,Forks,Criado em,Linguagem,Commits,Issues Abertas,Issues Fechadas,Releases
-freeCodeCamp,freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,409945,38265,2014-12-24T17:49:19Z,{'name': 'TypeScript'},37499,166,18693,0
-free-programming-books,EbookFoundation,:books: Freely available programming books,350184,59747,2013-10-11T06:50:37Z,{'name': 'HTML'},9498,34,1125,0
-awesome,sindresorhus,😎 Awesome lists about all kinds of interesting topics,346501,27384,2014-07-11T13:42:37Z,,1154,12,335,0
-build-your-own-x,codecrafters-io,Master programming by recreating your favorite technologies from scratch.,331742,30075,2018-05-09T12:03:18Z,{'name': 'Markdown'},571,189,532,0
-public-apis,public-apis,A collective list of free APIs,327236,33403,2016-03-20T23:49:42Z,{'name': 'Python'},4535,48,603,0
-coding-interview-university,jwasham,A complete computer science study plan to become a software engineer.,311748,72537,2016-06-06T02:34:12Z,,2511,51,458,0
-developer-roadmap,kamranahmedse,"Interactive roadmaps, guides and other educational content to help developers grow in their careers.",308124,37492,2017-03-15T13:45:52Z,{'name': 'TypeScript'},6193,127,2519,1
-system-design-primer,donnemartin,Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.,288867,46238,2017-02-26T16:15:28Z,{'name': 'Python'},332,231,87,0
-996.ICU,996icu,Repo for counting stars and contributing. Press F to pay respect to glorious developers.,270230,20926,2019-03-26T07:31:14Z,,3217,0,0,0
-awesome-python,vinta,"An opinionated list of awesome Python frameworks, libraries, software and resources.",233596,24145,2014-06-27T21:00:06Z,{'name': 'Python'},1679,0,0,0
-react,facebook,The library for web and native user interfaces.,232195,46883,2013-05-24T16:15:54Z,{'name': 'JavaScript'},19973,768,12723,103
-project-based-learning,practical-tutorials,Curated list of project-based tutorials,217107,27688,2017-04-12T05:07:46Z,,570,111,78,0
-awesome-selfhosted,awesome-selfhosted,A list of Free Software network services and web applications which can be hosted on your own servers,216054,9889,2015-06-01T02:33:17Z,,6706,0,803,1
-vue,vuejs,"This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",208335,33424,2013-07-29T03:24:51Z,{'name': 'TypeScript'},3593,354,9663,249
-Python,TheAlgorithms,All Algorithms implemented in Python,197206,45269,2016-07-16T09:44:01Z,{'name': 'Python'},3488,64,1492,0
-javascript-algorithms,trekhleb,📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings,190020,29068,2018-03-24T07:47:04Z,{'name': 'JavaScript'},1115,129,227,0
-tensorflow,tensorflow,An Open Source Machine Learning Framework for Everyone,187898,72901,2015-11-07T01:19:20Z,{'name': 'C++'},175924,816,39407,213
-linux,torvalds,Linux kernel source tree,187470,46249,2011-09-04T22:48:12Z,{'name': 'C'},1335774,0,0,0
-You-Dont-Know-JS,getify,A book series on JavaScript. @YDKJS on twitter.,180949,31424,2013-11-16T02:37:24Z,,1899,81,855,0
-CS-Notes,CyC2018,:books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计,178802,49088,2018-02-13T14:56:24Z,,3781,148,448,0
-ohmyzsh,ohmyzsh,"🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",175989,25445,2009-08-28T18:15:37Z,{'name': 'Shell'},7471,134,4755,0
-computer-science,ossu,🎓 Path to a free self-taught education in Computer Science!,175240,21478,2014-05-04T00:18:39Z,,1066,14,628,0
-bootstrap,twbs,"The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",171369,77071,2011-07-29T21:19:00Z,{'name': 'JavaScript'},22933,496,22118,89
-AutoGPT,Significant-Gravitas,"AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",171346,44159,2023-03-16T09:21:07Z,{'name': 'Python'},6372,167,2968,40
-flutter,flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,168472,27529,2015-03-06T22:54:58Z,{'name': 'Dart'},82731,13103,90020,7
-vscode,microsoft,Visual Studio Code,167202,29347,2015-09-03T20:23:38Z,{'name': 'TypeScript'},129646,8591,181487,155
-gitignore,github,A collection of useful .gitignore templates,164313,81660,2010-11-08T20:17:14Z,,3673,0,0,0
-Python-100-Days,jackfrued,Python - 100天从新手到大师,160703,51524,2018-03-01T16:05:52Z,{'name': 'Jupyter Notebook'},411,545,114,0
-the-book-of-secret-knowledge,trimstray,"A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",157759,9492,2018-06-23T10:43:14Z,,1069,0,0,0
-the-art-of-command-line,jlevy,"Master the command line, in one page",154651,14147,2015-05-20T15:11:03Z,,1218,118,136,0
-JavaGuide,Snailclimb,「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！,148017,44452,2018-05-07T13:27:00Z,{'name': 'Java'},5707,63,1005,0
-stable-diffusion-webui,AUTOMATIC1111,Stable Diffusion web UI,147554,26552,2022-08-22T14:05:26Z,{'name': 'Python'},7689,2296,5443,27
-javascript,airbnb,JavaScript Style Guide,146087,24224,2012-11-01T23:13:50Z,{'name': 'JavaScript'},1983,95,1252,0
-transformers,huggingface,"🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.",139044,26822,2018-10-29T13:56:00Z,{'name': 'Python'},17997,995,15632,177
-awesome-go,avelino,"A curated list of awesome Go frameworks, libraries and software",137958,11690,2014-07-06T13:42:15Z,{'name': 'Go'},5003,5,664,0
-youtube-dl,ytdl-org,Command-line program to download videos from YouTube.com and other video sites,134101,10028,2010-10-31T14:35:07Z,{'name': 'Python'},18886,3698,22987,341
-next.js,vercel,The React Framework,129227,27310,2016-10-05T23:32:51Z,{'name': 'JavaScript'},27201,2816,19513,1000
-fucking-algorithm,labuladong,"刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why. ",126773,22430,2020-02-19T09:01:23Z,{'name': 'Markdown'},516,3,875,1
-go,golang,The Go programming language,125645,17377,2014-08-19T04:33:40Z,{'name': 'Go'},62213,9118,56256,0
-ollama,ollama,"Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.",124629,9891,2023-06-26T19:39:32Z,{'name': 'Go'},3846,1290,4589,111
-30-seconds-of-code,Chalarangelo,Coding articles to level up your development skills,122612,11653,2017-11-29T17:35:03Z,{'name': 'JavaScript'},9735,0,296,11
-tech-interview-handbook,yangshun,💯 Curated coding interview preparation materials for busy software engineers,121769,14116,2016-07-05T05:00:48Z,{'name': 'TypeScript'},1300,37,70,0
-react-native,facebook,A framework for building native applications using React,120519,23719,2015-01-09T18:10:16Z,{'name': 'C++'},35020,593,26022,372
-awesome-chatgpt-prompts,f,This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.,120222,15886,2022-12-05T13:54:13Z,{'name': 'HTML'},654,0,0,0
-scrcpy,Genymobile,Display and control your Android device,117395,10905,2017-11-21T18:00:27Z,{'name': 'C'},2778,2192,3008,44
-Microsoft-Activation-Scripts,massgravel,"Open-source Windows and Office activator featuring HWID, Ohook, KMS38, and Online KMS activation methods, along with advanced troubleshooting.",116489,11104,2020-01-12T23:03:34Z,{'name': 'Batchfile'},301,0,554,18
-electron,electron,":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",115439,15452,2013-04-12T01:47:36Z,{'name': 'C++'},28960,857,19646,1000
-PowerToys,microsoft,Windows system utilities to maximize productivity,114683,6645,2019-05-01T17:44:02Z,{'name': 'C#'},7716,5733,25681,109
-kubernetes,kubernetes,Production-Grade Container Scheduling and Management,112993,38485,2014-06-06T22:56:04Z,{'name': 'Go'},127998,1886,44736,717
-free-programming-books-zh_CN,justjavac,:books: 免费的计算机编程类中文书籍，欢迎投稿,112590,25116,2013-11-04T01:59:19Z,,924,0,0,3
-d3,d3,"Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",109741,22565,2010-09-27T17:22:42Z,{'name': 'Shell'},4507,9,2215,194
-node,nodejs,Node.js JavaScript runtime ✨🐢🚀✨,109448,29938,2014-11-26T19:57:11Z,{'name': 'JavaScript'},43481,1625,17120,427
-hello-algo,krahets,"《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version ongoing",108814,13470,2022-11-04T11:08:34Z,{'name': 'Java'},2067,17,235,9
-axios,axios,Promise based HTTP client for the browser and node.js,106287,10852,2014-08-18T22:30:27Z,{'name': 'JavaScript'},1632,562,4193,87
-three.js,mrdoob,JavaScript 3D Library.,104255,34728,2010-03-23T18:58:01Z,{'name': 'JavaScript'},44865,419,12403,165
-create-react-app,facebook,Set up a modern web app by running one command.,103090,26088,2016-07-17T14:55:11Z,{'name': 'JavaScript'},2816,1812,6557,83
-TypeScript,microsoft,TypeScript is a superset of JavaScript that compiles to clean JavaScript output.,102129,12439,2014-06-17T15:28:39Z,{'name': 'TypeScript'},36438,5497,36165,206
-nodebestpractices,goldbergyoni,:white_check_mark:  The Node.js best practices list (July 2024),101746,10022,2017-09-15T08:33:19Z,{'name': 'Dockerfile'},3914,40,284,0
-deno,denoland,A modern runtime for JavaScript and TypeScript.,101657,5409,2018-05-15T01:34:26Z,{'name': 'Rust'},13158,2018,10002,309
-rust,rust-lang,Empowering everyone to build reliable and efficient software.,101174,12564,2010-06-16T20:39:03Z,{'name': 'Rust'},281025,9990,46509,134
-langchain,langchain-ai,🦜🔗 Build context-aware reasoning applications,100176,15947,2022-10-17T02:58:36Z,{'name': 'Jupyter Notebook'},12638,343,7828,796
-yt-dlp,yt-dlp,A feature-rich command-line audio/video downloader,99812,7690,2020-10-26T04:22:55Z,{'name': 'Python'},23000,1482,7155,103
-HelloGitHub,521xueweihan,":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",98333,9714,2016-05-04T06:24:11Z,{'name': 'Python'},204,188,2558,51
-terminal,microsoft,"The new Windows Terminal and the original Windows console host, all in the same place!",96975,8352,2017-08-11T18:38:22Z,{'name': 'C++'},4516,1581,11502,128
-angular,angular,Deliver web apps with confidence 🚀,96897,25259,2014-09-18T16:12:01Z,{'name': 'TypeScript'},32110,1509,27210,403
-material-ui,mui,Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.,94724,32251,2014-08-18T19:11:54Z,{'name': 'TypeScript'},26330,1691,18122,519
-godot,godotengine,Godot Engine – Multi-platform 2D and 3D game engine,93862,21232,2014-01-04T16:05:36Z,{'name': 'C++'},71622,11281,43640,58
-ant-design,ant-design,An enterprise-class UI design language and React UI library,93398,50831,2015-04-24T15:37:24Z,{'name': 'TypeScript'},29160,1215,29638,689
-clean-code-javascript,ryanmcdermott,Clean Code concepts adapted for JavaScript,92402,10565,2016-11-25T22:25:41Z,{'name': 'JavaScript'},546,71,163,0
-free-for-dev,ripienaar,"A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",92193,9447,2015-03-18T21:06:26Z,{'name': 'HTML'},6138,0,0,0
-excalidraw,excalidraw,Virtual whiteboard for sketching hand-drawn like diagrams,92119,8563,2020-01-02T01:04:43Z,{'name': 'TypeScript'},3667,1648,2184,13
-papers-we-love,papers-we-love,Papers from the computer science community to read and discuss.,90754,5555,2013-12-15T14:31:41Z,{'name': 'Shell'},875,0,243,0
-java-design-patterns,iluwatar,Design patterns implemented in Java,90697,25890,2014-08-09T16:45:18Z,{'name': 'Java'},4177,127,815,0
-frp,fatedier,A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.,90321,13358,2015-12-21T15:24:59Z,{'name': 'Go'},1253,50,3638,101
-iptv,iptv-org,Collection of publicly available IPTV channels from all over the world,90080,3105,2018-11-14T22:00:57Z,{'name': 'JavaScript'},31532,39,9540,0
-thefuck,nvbn,Magnificent app which corrects your previous console command.,89832,3573,2015-04-08T15:08:04Z,{'name': 'Python'},1651,274,471,17
-puppeteer,puppeteer,JavaScript API for Chrome and Firefox,89665,9039,2017-05-09T22:16:13Z,{'name': 'TypeScript'},5405,255,6816,492
-tauri,tauri-apps,"Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",89325,2709,2019-07-13T09:09:37Z,{'name': 'Rust'},5309,935,4226,1000
-Awesome-Hacking,Hack-with-Github,"A collection of various awesome lists for hackers, pentesters and security researchers",88747,8485,2016-03-30T15:47:10Z,,124,0,0,0
-vue-element-admin,PanJiaChen,:tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin,88645,30176,2017-04-17T03:35:49Z,{'name': 'Vue'},1020,1239,2357,49
-pytorch,pytorch,Tensors and Dynamic neural networks in Python with strong GPU acceleration,86740,22827,2016-08-13T05:26:41Z,{'name': 'Python'},84292,14500,34286,58
-neovim,neovim,Vim-fork focused on extensibility and usability,86085,5787,2014-01-31T13:39:22Z,{'name': 'Vim Script'},31813,1548,10727,41
-every-programmer-should-know,mtdvio,A collection of (mostly) technical things every software developer should know about,86020,7143,2017-08-24T13:18:26Z,,284,29,22,0
-storybook,storybookjs,"Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",85775,9310,2016-03-18T04:23:44Z,{'name': 'TypeScript'},65969,2029,11098,1000
-tailwindcss,tailwindlabs,A utility-first CSS framework for rapid UI development.,85531,4314,2017-10-06T14:59:14Z,{'name': 'TypeScript'},5993,96,3783,266
-Web-Dev-For-Beginners,microsoft,"24 Lessons, 12 Weeks, Get Started as a Web Developer",84865,12303,2020-11-10T02:44:00Z,{'name': 'JavaScript'},1740,55,240,0
-DeepSeek-V3,deepseek-ai,,82806,13179,2024-12-26T09:52:40Z,{'name': 'Python'},47,98,262,0
-django,django,The Web framework for perfectionists with deadlines.,82249,31581,2012-04-28T02:47:18Z,{'name': 'Python'},33341,0,0,0
-nvm,nvm-sh,Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions,82183,8062,2010-04-15T17:47:47Z,{'name': 'Shell'},2248,299,1952,68
-app-ideas,florinpop17,A Collection of application ideas which can be used to improve your coding skills.,82059,9306,2019-02-25T18:36:56Z,,536,126,43,0
-rustdesk,rustdesk,"An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",81971,11352,2020-09-28T15:36:08Z,{'name': 'Rust'},10251,49,3256,27
-bitcoin,bitcoin,Bitcoin Core integration/staging tree,81947,27635,2010-12-19T15:16:43Z,{'name': 'C++'},43824,389,7998,54
-animate.css,animate-css,🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.,81294,15956,2011-10-12T10:07:38Z,{'name': 'CSS'},664,32,841,22
-svelte,sveltejs,web development for the rest of us,81280,4317,2016-11-20T18:13:05Z,{'name': 'JavaScript'},9982,763,7168,390
-realworld,gothinkster,"""The mother of all demo apps"" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",81163,7226,2016-02-26T20:49:53Z,{'name': 'TypeScript'},974,43,495,0
-fastapi,fastapi,"FastAPI framework, high performance, easy to learn, fast to code, ready for production",80756,6864,2018-12-08T08:21:47Z,{'name': 'Python'},5540,51,3410,200
-ui,shadcn-ui,"A set of beautifully-designed, accessible, and customizable components to help you build your component library. Open Source.",80610,5203,2023-01-04T12:43:27Z,{'name': 'TypeScript'},637,765,1997,37
-opencv,opencv,Open Source Computer Vision Library,80516,55032,2012-07-19T09:40:17Z,{'name': 'C++'},34942,2560,8429,65
-NextChat,ChatGPTNextWeb,✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows,80384,58865,2023-03-10T18:27:54Z,{'name': 'TypeScript'},3003,532,2812,75
-gin,gin-gonic,"Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.",80239,8022,2014-06-16T23:57:25Z,{'name': 'Go'},1801,642,1646,26
+Nome,Dono,Descrição,Estrelas,Forks,Criado em,Última Atualização,Linguagem,Commits,Issues Abertas,Issues Fechadas,Releases,PRs Aceitos
+freeCodeCamp,freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,410169,38319,2014-12-24T17:49:19Z,2025-02-18T21:59:00Z,TypeScript,37574,18920,18745,0,24347
+free-programming-books,EbookFoundation,:books: Freely available programming books,350637,59787,2013-10-11T06:50:37Z,2025-02-18T22:32:52Z,HTML,9499,1159,1130,0,6787
+awesome,sindresorhus,😎 Awesome lists about all kinds of interesting topics,347595,27435,2014-07-11T13:42:37Z,2025-02-18T22:18:49Z,Não especificada,1154,347,335,0,661
+build-your-own-x,codecrafters-io,Master programming by recreating your favorite technologies from scratch.,336654,30506,2018-05-09T12:03:18Z,2025-02-18T22:41:49Z,Markdown,571,727,538,0,140
+public-apis,public-apis,A collective list of free APIs,327806,33439,2016-03-20T23:49:42Z,2025-02-18T22:40:39Z,Python,4535,651,603,0,1872
+coding-interview-university,jwasham,A complete computer science study plan to become a software engineer.,312039,72590,2016-06-06T02:34:12Z,2025-02-18T22:42:43Z,Não especificada,2511,510,458,0,415
+developer-roadmap,kamranahmedse,"Interactive roadmaps, guides and other educational content to help developers grow in their careers.",308600,37547,2017-03-15T13:45:52Z,2025-02-18T22:40:43Z,TypeScript,6212,2664,2520,1,3318
+system-design-primer,donnemartin,Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.,289487,46334,2017-02-26T16:15:28Z,2025-02-18T22:41:49Z,Python,332,319,87,0,199
+996.ICU,996icu,Repo for counting stars and contributing. Press F to pay respect to glorious developers.,270283,20929,2019-03-26T07:31:14Z,2025-02-18T15:27:10Z,Não especificada,3217,0,0,0,1068
+awesome-python,vinta,"An opinionated list of awesome Python frameworks, libraries, software and resources.",234426,24190,2014-06-27T21:00:06Z,2025-02-18T22:37:19Z,Python,1679,0,0,0,543
+react,facebook,The library for web and native user interfaces.,232373,46958,2013-05-24T16:15:54Z,2025-02-18T22:40:51Z,JavaScript,19997,13515,12741,103,11355
+project-based-learning,practical-tutorials,Curated list of project-based tutorials,218072,27839,2017-04-12T05:07:46Z,2025-02-18T22:38:49Z,Não especificada,570,190,78,0,182
+awesome-selfhosted,awesome-selfhosted,A list of Free Software network services and web applications which can be hosted on your own servers,217093,9927,2015-06-01T02:33:17Z,2025-02-18T22:39:30Z,Não especificada,6708,803,803,1,2393
+vue,vuejs,"This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",208372,33423,2013-07-29T03:24:51Z,2025-02-18T22:35:34Z,TypeScript,3593,10018,9664,249,1136
+Python,TheAlgorithms,All Algorithms implemented in Python,197422,45290,2016-07-16T09:44:01Z,2025-02-18T22:25:53Z,Python,3489,1556,1492,0,2911
+javascript-algorithms,trekhleb,📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings,190147,29082,2018-03-24T07:47:04Z,2025-02-18T22:39:26Z,JavaScript,1120,356,227,0,302
+tensorflow,tensorflow,An Open Source Machine Learning Framework for Everyone,188080,72934,2015-11-07T01:19:20Z,2025-02-18T22:47:48Z,C++,176157,40243,39425,213,29060
+linux,torvalds,Linux kernel source tree,187956,46334,2011-09-04T22:48:12Z,2025-02-18T22:22:55Z,C,1336186,0,0,0,10
+You-Dont-Know-JS,getify,A book series (2 published editions) on the JS language.,181024,31434,2013-11-16T02:37:24Z,2025-02-18T21:24:26Z,Não especificada,1899,936,855,0,367
+CS-Notes,CyC2018,:books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计,178915,49103,2018-02-13T14:56:24Z,2025-02-18T19:57:38Z,Não especificada,3781,596,448,0,374
+ohmyzsh,ohmyzsh,"🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",176157,25452,2009-08-28T18:15:37Z,2025-02-18T21:26:10Z,Shell,7476,4892,4759,0,3288
+computer-science,ossu,🎓 Path to a free self-taught education in Computer Science!,175446,21518,2014-05-04T00:18:39Z,2025-02-18T22:39:23Z,Não especificada,1066,642,628,0,281
+AutoGPT,Significant-Gravitas,"AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",171626,44209,2023-03-16T09:21:07Z,2025-02-18T21:43:40Z,Python,6389,3141,2972,41,2579
+bootstrap,twbs,"The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",171412,77075,2011-07-29T21:19:00Z,2025-02-18T21:23:27Z,JavaScript,22936,22617,22118,89,8844
+flutter,flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,168716,27559,2015-03-06T22:54:58Z,2025-02-18T22:43:10Z,Dart,82840,103373,90217,7,40848
+vscode,microsoft,Visual Studio Code,167486,29475,2015-09-03T20:23:38Z,2025-02-18T22:37:56Z,TypeScript,129883,190501,181875,156,31161
+gitignore,github,A collection of useful .gitignore templates,164469,81667,2010-11-08T20:17:14Z,2025-02-18T22:36:12Z,Não especificada,3673,0,0,0,1573
+Python-100-Days,jackfrued,Python - 100天从新手到大师,160947,51571,2018-03-01T16:05:52Z,2025-02-18T22:03:46Z,Jupyter Notebook,454,660,114,0,13
+the-book-of-secret-knowledge,trimstray,"A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",158416,9522,2018-06-23T10:43:14Z,2025-02-18T22:37:27Z,Não especificada,1069,0,0,0,122
+the-art-of-command-line,jlevy,"Master the command line, in one page",154753,14148,2015-05-20T15:11:03Z,2025-02-18T21:56:22Z,Não especificada,1218,254,136,0,317
+JavaGuide,Snailclimb,「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！,148158,44472,2018-05-07T13:27:00Z,2025-02-18T22:06:50Z,Java,5738,1072,1008,0,1135
+stable-diffusion-webui,AUTOMATIC1111,Stable Diffusion web UI,147988,26625,2022-08-22T14:05:26Z,2025-02-18T22:13:02Z,Python,7689,7745,5446,27,1871
+javascript,airbnb,JavaScript Style Guide,146139,24234,2012-11-01T23:13:50Z,2025-02-18T22:27:25Z,JavaScript,1983,1347,1252,0,811
+transformers,huggingface,"🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.",139648,26929,2018-10-29T13:56:00Z,2025-02-18T22:43:42Z,Python,18084,16665,15680,178,14594
+awesome-go,avelino,"A curated list of awesome Go frameworks, libraries and software",138359,11698,2014-07-06T13:42:15Z,2025-02-18T22:08:24Z,Go,5005,670,665,0,3394
+youtube-dl,ytdl-org,Command-line program to download videos from YouTube.com and other video sites,134256,10039,2010-10-31T14:35:07Z,2025-02-18T22:12:46Z,Python,18886,26687,22997,341,1639
+next.js,vercel,The React Framework,129472,27376,2016-10-05T23:32:51Z,2025-02-18T22:37:43Z,JavaScript,27326,22373,19676,1000,20813
+ollama,ollama,"Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.",127367,10198,2023-06-26T19:39:32Z,2025-02-18T22:39:13Z,Go,3877,6006,4665,114,1988
+fucking-algorithm,labuladong,"刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why. ",126847,22439,2020-02-19T09:01:23Z,2025-02-18T19:09:12Z,Markdown,516,881,877,1,238
+go,golang,The Go programming language,125920,17404,2014-08-19T04:33:40Z,2025-02-18T22:45:09Z,Go,62293,65500,56360,0,1
+30-seconds-of-code,Chalarangelo,Coding articles to level up your development skills,122675,11656,2017-11-29T17:35:03Z,2025-02-18T21:41:07Z,JavaScript,9737,296,296,11,821
+tech-interview-handbook,yangshun,💯 Curated coding interview preparation materials for busy software engineers,121919,14126,2016-07-05T05:00:48Z,2025-02-18T20:00:00Z,TypeScript,1300,107,70,0,466
+react-native,facebook,A framework for building native applications using React,120620,23736,2015-01-09T18:10:16Z,2025-02-18T22:17:46Z,C++,35145,26642,26048,374,886
+awesome-chatgpt-prompts,f,This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.,120586,15920,2022-12-05T13:54:13Z,2025-02-18T22:31:12Z,HTML,656,0,0,0,158
+Microsoft-Activation-Scripts,massgravel,"Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.",118533,11340,2020-01-12T23:03:34Z,2025-02-18T22:33:47Z,Batchfile,323,566,566,19,6
+scrcpy,Genymobile,Display and control your Android device,117756,10922,2017-11-21T18:00:27Z,2025-02-18T21:23:29Z,C,2778,5213,3014,44,109
+electron,electron,":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",115512,15467,2013-04-12T01:47:36Z,2025-02-18T20:17:47Z,C++,28979,20534,19668,1000,21494
+PowerToys,microsoft,Windows system utilities to maximize productivity,114894,6654,2019-05-01T17:44:02Z,2025-02-18T22:46:03Z,C#,7728,31519,25736,109,5067
+kubernetes,kubernetes,Production-Grade Container Scheduling and Management,113160,38542,2014-06-06T22:56:04Z,2025-02-18T21:48:24Z,Go,128100,46649,44773,722,60686
+free-programming-books-zh_CN,justjavac,:books: 免费的计算机编程类中文书籍，欢迎投稿,112653,25127,2013-11-04T01:59:19Z,2025-02-18T19:16:06Z,Não especificada,924,0,0,3,282
+d3,d3,"Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",109823,22567,2010-09-27T17:22:42Z,2025-02-18T20:39:04Z,Shell,4507,2224,2215,194,491
+node,nodejs,Node.js JavaScript runtime ✨🐢🚀✨,109694,30018,2014-11-26T19:57:11Z,2025-02-18T21:40:21Z,JavaScript,43527,18780,17152,428,9746
+hello-algo,krahets,"《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version ongoing",109085,13499,2022-11-04T11:08:34Z,2025-02-18T22:39:32Z,Java,2071,253,235,9,900
+axios,axios,Promise based HTTP client for the browser and node.js,106349,10856,2014-08-18T22:30:27Z,2025-02-18T21:20:21Z,JavaScript,1634,4756,4196,87,935
+three.js,mrdoob,JavaScript 3D Library.,104371,34739,2010-03-23T18:58:01Z,2025-02-18T22:44:55Z,JavaScript,44898,12837,12421,165,13688
+create-react-app,facebook,Set up a modern web app by running one command.,103112,26098,2016-07-17T14:55:11Z,2025-02-18T22:16:12Z,JavaScript,2819,8371,6558,83,1949
+TypeScript,microsoft,TypeScript is a superset of JavaScript that compiles to clean JavaScript output.,102251,12452,2014-06-17T15:28:39Z,2025-02-18T22:13:57Z,TypeScript,36442,41695,36178,206,14535
+nodebestpractices,goldbergyoni,:white_check_mark:  The Node.js best practices list (July 2024),101785,10023,2017-09-15T08:33:19Z,2025-02-18T22:47:05Z,Dockerfile,3914,325,284,0,765
+deno,denoland,A modern runtime for JavaScript and TypeScript.,101781,5416,2018-05-15T01:34:26Z,2025-02-18T22:20:19Z,Rust,13195,12077,10035,310,12343
+rust,rust-lang,Empowering everyone to build reliable and efficient software.,101344,12598,2010-06-16T20:39:03Z,2025-02-18T22:10:50Z,Rust,281690,56598,46628,134,61231
+yt-dlp,yt-dlp,A feature-rich command-line audio/video downloader,100830,7775,2020-10-26T04:22:55Z,2025-02-18T22:39:49Z,Python,23000,8683,7183,103,2505
+langchain,langchain-ai,🦜🔗 Build context-aware reasoning applications,100817,16049,2022-10-17T02:58:36Z,2025-02-18T22:40:28Z,Jupyter Notebook,12688,8199,7852,803,13178
+HelloGitHub,521xueweihan,":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",98603,9721,2016-05-04T06:24:11Z,2025-02-18T22:39:24Z,Python,204,2750,2559,51,17
+terminal,microsoft,"The new Windows Terminal and the original Windows console host, all in the same place!",97074,8351,2017-08-11T18:38:22Z,2025-02-18T21:24:00Z,C++,4517,13090,11502,128,4022
+angular,angular,Deliver web apps with confidence 🚀,96973,25307,2014-09-18T16:12:01Z,2025-02-18T22:10:26Z,TypeScript,32174,28745,27228,405,3694
+material-ui,mui,Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.,94798,32270,2014-08-18T19:11:54Z,2025-02-18T20:26:12Z,TypeScript,26358,19824,18140,521,19871
+godot,godotengine,Godot Engine – Multi-platform 2D and 3D game engine,94089,21298,2014-01-04T16:05:36Z,2025-02-18T21:48:24Z,C++,71766,55052,43730,58,36254
+ant-design,ant-design,An enterprise-class UI design language and React UI library,93730,50968,2015-04-24T15:37:24Z,2025-02-18T22:39:49Z,TypeScript,29188,30904,29691,690,14968
+excalidraw,excalidraw,Virtual whiteboard for sketching hand-drawn like diagrams,92603,8622,2020-01-02T01:04:43Z,2025-02-18T22:17:25Z,TypeScript,3672,3852,2192,13,3558
+clean-code-javascript,ryanmcdermott,Clean Code concepts adapted for JavaScript,92478,10573,2016-11-25T22:25:41Z,2025-02-18T19:35:55Z,JavaScript,546,234,163,0,149
+free-for-dev,ripienaar,"A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",92311,9479,2015-03-18T21:06:26Z,2025-02-18T21:40:18Z,HTML,6150,0,0,0,2644
+papers-we-love,papers-we-love,Papers from the computer science community to read and discuss.,90926,5560,2013-12-15T14:31:41Z,2025-02-18T21:48:23Z,Shell,875,243,243,0,433
+java-design-patterns,iluwatar,Design patterns implemented in Java,90760,25911,2014-08-09T16:45:18Z,2025-02-18T21:26:50Z,Java,4183,942,816,0,1456
+frp,fatedier,A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.,90556,13383,2015-12-21T15:24:59Z,2025-02-18T19:29:04Z,Go,1256,3697,3644,101,654
+iptv,iptv-org,Collection of publicly available IPTV channels from all over the world,90298,3139,2018-11-14T22:00:57Z,2025-02-18T22:27:39Z,JavaScript,31544,9782,9726,0,6490
+thefuck,nvbn,Magnificent app which corrects your previous console command.,90065,3580,2015-04-08T15:08:04Z,2025-02-18T21:40:40Z,Python,1651,745,471,17,481
+puppeteer,puppeteer,JavaScript API for Chrome and Firefox,89752,9041,2017-05-09T22:16:13Z,2025-02-18T20:19:29Z,TypeScript,5412,7072,6818,494,5137
+tauri,tauri-apps,"Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",89557,2717,2019-07-13T09:09:37Z,2025-02-18T22:18:38Z,Rust,5315,5188,4246,1000,4794
+Awesome-Hacking,Hack-with-Github,"A collection of various awesome lists for hackers, pentesters and security researchers",89023,8496,2016-03-30T15:47:10Z,2025-02-18T22:19:03Z,Não especificada,124,0,0,0,34
+vue-element-admin,PanJiaChen,:tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin,88709,30173,2017-04-17T03:35:49Z,2025-02-18T17:14:00Z,Vue,1020,3597,2357,49,311
+pytorch,pytorch,Tensors and Dynamic neural networks in Python with strong GPU acceleration,86984,22888,2016-08-13T05:26:41Z,2025-02-18T22:23:42Z,Python,84519,48948,34427,58,5998
+neovim,neovim,Vim-fork focused on extensibility and usability,86281,5805,2014-01-31T13:39:22Z,2025-02-18T21:59:55Z,Vim Script,31863,12316,10761,41,14592
+every-programmer-should-know,mtdvio,A collection of (mostly) technical things every software developer should know about,86199,7153,2017-08-24T13:18:26Z,2025-02-18T22:39:25Z,Não especificada,284,51,22,0,99
+DeepSeek-V3,deepseek-ai,,85963,13814,2024-12-26T09:52:40Z,2025-02-18T22:41:22Z,Python,52,390,289,0,17
+storybook,storybookjs,"Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",85872,9313,2016-03-18T04:23:44Z,2025-02-18T22:30:24Z,TypeScript,66312,13141,11114,1000,10736
+tailwindcss,tailwindlabs,A utility-first CSS framework for rapid UI development.,85739,4323,2017-10-06T14:59:14Z,2025-02-18T22:39:30Z,TypeScript,6014,3946,3857,267,2734
+Web-Dev-For-Beginners,microsoft,"24 Lessons, 12 Weeks, Get Started as a Web Developer",85058,12329,2020-11-10T02:44:00Z,2025-02-18T22:32:24Z,JavaScript,1742,295,240,0,497
+django,django,The Web framework for perfectionists with deadlines.,82370,31623,2012-04-28T02:47:18Z,2025-02-18T22:24:39Z,Python,33366,0,0,0,9528
+rustdesk,rustdesk,"An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",82340,11383,2020-09-28T15:36:08Z,2025-02-18T22:26:39Z,Rust,10269,3296,3247,27,3319
+nvm,nvm-sh,Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions,82314,8082,2010-04-15T17:47:47Z,2025-02-18T21:48:22Z,Shell,2248,2252,1953,68,725
+app-ideas,florinpop17,A Collection of application ideas which can be used to improve your coding skills.,82158,9309,2019-02-25T18:36:56Z,2025-02-18T21:54:41Z,Não especificada,536,169,43,0,149
+bitcoin,bitcoin,Bitcoin Core integration/staging tree,82064,27660,2010-12-19T15:16:43Z,2025-02-18T20:52:34Z,C++,43943,8400,8012,54,14908
+svelte,sveltejs,web development for the rest of us,81421,4338,2016-11-20T18:13:05Z,2025-02-18T22:49:58Z,JavaScript,10002,7955,7192,393,5469
+animate.css,animate-css,🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.,81328,15958,2011-10-12T10:07:38Z,2025-02-18T20:52:45Z,CSS,664,873,841,22,315
+realworld,gothinkster,"""The mother of all demo apps"" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",81211,7233,2016-02-26T20:49:53Z,2025-02-18T22:15:32Z,TypeScript,974,538,495,0,433
+ui,shadcn-ui,"A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",81125,5259,2023-01-04T12:43:27Z,2025-02-18T21:42:25Z,TypeScript,643,2781,2006,37,471
+fastapi,fastapi,"FastAPI framework, high performance, easy to learn, fast to code, ready for production",81040,6899,2018-12-08T08:21:47Z,2025-02-18T22:23:55Z,Python,5572,3461,3411,200,2549
+NextChat,ChatGPTNextWeb,✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows,80919,59091,2023-03-10T18:27:54Z,2025-02-18T22:21:40Z,TypeScript,3014,3372,2818,76,869
+opencv,opencv,Open Source Computer Vision Library,80623,55048,2012-07-19T09:40:17Z,2025-02-18T20:58:22Z,C++,34971,10999,8436,65,12718
+gin,gin-gonic,"Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.",80358,8034,2014-06-16T23:57:25Z,2025-02-18T22:12:53Z,Go,1803,2288,1647,26,1046

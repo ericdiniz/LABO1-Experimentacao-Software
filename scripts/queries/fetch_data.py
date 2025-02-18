@@ -4,18 +4,18 @@ import time
 from dotenv import load_dotenv
 from scripts.queries.queries_repository import QUERY_POPULAR_REPOS
 
-# Carrega variáveis de ambiente do arquivo .env
+# Carrega as variáveis do .env
 load_dotenv()
 TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_API_URL = "https://api.github.com/graphql"
 
 def fetch_popular_repositories():
-    """Busca os 100 repositórios mais populares do GitHub."""
+    """Busca os 100 repositórios mais populares do GitHub e suas métricas necessárias."""
     headers = {"Authorization": f"Bearer {TOKEN}"}
     all_repositories = []
     after_cursor = None
     max_attempts = 5
-    timeout_seconds = 60  # Aumentando o timeout para evitar erros
+    timeout_seconds = 60
 
     while len(all_repositories) < 100:
         variables = {"afterCursor": after_cursor}
@@ -36,6 +36,10 @@ def fetch_popular_repositories():
                     repositories = data.get("edges", [])
                     page_info = data.get("pageInfo", {})
 
+                    if not repositories:
+                        print("⚠️ Nenhum repositório encontrado! Verifique sua query.")
+                        return None
+
                     for repo in repositories:
                         node = repo["node"]
                         all_repositories.append({
@@ -45,11 +49,13 @@ def fetch_popular_repositories():
                             "Estrelas": node.get("stargazers", {}).get("totalCount", 0),
                             "Forks": node.get("forks", {}).get("totalCount", 0),
                             "Criado em": node.get("createdAt", "Data não disponível"),
-                            "Linguagem": node.get("primaryLanguage", {}).get("name", "Não especificada"),
+                            "Última Atualização": node.get("updatedAt", "Data não disponível"),
+                            "Linguagem": (node.get("primaryLanguage") or {}).get("name", "Não especificada"),  # ✅ Correção aplicada
                             "Commits": node.get("defaultBranchRef", {}).get("target", {}).get("history", {}).get("totalCount", 0),
                             "Issues Abertas": node.get("issues", {}).get("totalCount", 0),
                             "Issues Fechadas": node.get("closedIssues", {}).get("totalCount", 0),
-                            "Releases": node.get("releases", {}).get("totalCount", 0)
+                            "Releases": node.get("releases", {}).get("totalCount", 0),
+                            "PRs Aceitos": node.get("pullRequests", {}).get("totalCount", 0),
                         })
 
                     print(f"📊 {len(all_repositories)}/100 repositórios coletados...")
@@ -60,7 +66,7 @@ def fetch_popular_repositories():
                         print("✅ Coleta de repositórios concluída!")
                         return all_repositories
 
-                    break  # Sai do loop de tentativas se a resposta for 200
+                    break
 
                 elif response.status_code == 502:
                     wait_time = min(60, 2 ** attempt)
@@ -69,8 +75,10 @@ def fetch_popular_repositories():
                     attempt += 1
 
                 elif response.status_code == 403:
-                    print("🚨 Rate limit atingido! Aguardando 60 segundos...")
-                    time.sleep(60)
+                    reset_time = int(response.headers.get("X-RateLimit-Reset", time.time() + 60))
+                    wait_time = max(0, reset_time - time.time())
+                    print(f"🚨 Rate limit atingido! Aguardando {int(wait_time)} segundos...")
+                    time.sleep(wait_time)
                     attempt += 1
 
                 else:

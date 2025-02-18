@@ -1,6 +1,4 @@
 import os
-import requests
-import time
 from dotenv import load_dotenv
 from scripts.queries.fetch_data import fetch_popular_repositories
 from scripts.output.output_handler import save_to_csv
