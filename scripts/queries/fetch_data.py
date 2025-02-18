@@ -1,21 +1,20 @@
 import os
 import requests
 import time
+import random
 from dotenv import load_dotenv
 from scripts.queries.queries_repository import QUERY_POPULAR_REPOS
 
-# Carrega as variáveis do .env
 load_dotenv()
 TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_API_URL = "https://api.github.com/graphql"
 
 def fetch_popular_repositories():
-    """Busca os 100 repositórios mais populares do GitHub e suas métricas necessárias."""
     headers = {"Authorization": f"Bearer {TOKEN}"}
     all_repositories = []
     after_cursor = None
     max_attempts = 5
-    timeout_seconds = 60
+    timeout_seconds = 30
 
     while len(all_repositories) < 100:
         variables = {"afterCursor": after_cursor}
@@ -37,7 +36,7 @@ def fetch_popular_repositories():
                     page_info = data.get("pageInfo", {})
 
                     if not repositories:
-                        print("⚠️ Nenhum repositório encontrado! Verifique sua query.")
+                        print("Nenhum repositório encontrado! Verifique sua query.")
                         return None
 
                     for repo in repositories:
@@ -50,7 +49,7 @@ def fetch_popular_repositories():
                             "Forks": node.get("forks", {}).get("totalCount", 0),
                             "Criado em": node.get("createdAt", "Data não disponível"),
                             "Última Atualização": node.get("updatedAt", "Data não disponível"),
-                            "Linguagem": (node.get("primaryLanguage") or {}).get("name", "Não especificada"),  # ✅ Correção aplicada
+                            "Linguagem": (node.get("primaryLanguage") or {}).get("name", "Não especificada"),
                             "Commits": node.get("defaultBranchRef", {}).get("target", {}).get("history", {}).get("totalCount", 0),
                             "Issues Abertas": node.get("issues", {}).get("totalCount", 0),
                             "Issues Fechadas": node.get("closedIssues", {}).get("totalCount", 0),
@@ -58,46 +57,46 @@ def fetch_popular_repositories():
                             "PRs Aceitos": node.get("pullRequests", {}).get("totalCount", 0),
                         })
 
-                    print(f"📊 {len(all_repositories)}/100 repositórios coletados...")
+                    print(f"{len(all_repositories)}/100 repositórios coletados...")
 
                     if page_info.get("hasNextPage") and len(all_repositories) < 100:
                         after_cursor = page_info["endCursor"]
                     else:
-                        print("✅ Coleta de repositórios concluída!")
+                        print("Coleta de repositórios concluída!")
                         return all_repositories
 
                     break
 
                 elif response.status_code == 502:
-                    wait_time = min(60, 2 ** attempt)
-                    print(f"⚠️ Erro 502. Tentando novamente ({attempt+1}/{max_attempts}) em {wait_time}s...")
+                    wait_time = min(60, 2 ** attempt) + random.uniform(0, 3)
+                    print(f"Erro 502. Tentando novamente ({attempt+1}/{max_attempts}) em {wait_time:.2f}s...")
                     time.sleep(wait_time)
                     attempt += 1
 
                 elif response.status_code == 403:
                     reset_time = int(response.headers.get("X-RateLimit-Reset", time.time() + 60))
                     wait_time = max(0, reset_time - time.time())
-                    print(f"🚨 Rate limit atingido! Aguardando {int(wait_time)} segundos...")
+                    print(f"Rate limit atingido! Aguardando {int(wait_time)} segundos...")
                     time.sleep(wait_time)
                     attempt += 1
 
                 else:
-                    print(f"❌ Erro inesperado: {response.status_code} - {response.text}")
+                    print(f"Erro inesperado: {response.status_code} - {response.text}")
                     return None
 
             except requests.exceptions.ReadTimeout:
-                print(f"⚠️ Timeout! Tentando novamente ({attempt+1}/{max_attempts}) em 5s...")
+                print(f"Timeout! Tentando novamente ({attempt+1}/{max_attempts}) em 5s...")
                 time.sleep(5)
                 attempt += 1
 
             except requests.exceptions.ChunkedEncodingError:
-                print(f"⚠️ Erro 'Response ended prematurely'. Tentando novamente ({attempt+1}/{max_attempts}) em 5s...")
+                print(f"Erro 'Response ended prematurely'. Tentando novamente ({attempt+1}/{max_attempts}) em 5s...")
                 time.sleep(5)
                 attempt += 1
 
             except requests.exceptions.RequestException as e:
-                print(f"❌ Erro na requisição: {e}")
+                print(f"Erro na requisição: {e}")
                 return None
 
-    print("✅ Coleta de repositórios concluída!")
+    print("Coleta de repositórios concluída!")
     return all_repositories

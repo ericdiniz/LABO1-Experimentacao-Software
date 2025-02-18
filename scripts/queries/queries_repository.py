@@ -1,4 +1,3 @@
-
 QUERY_POPULAR_REPOS = """
 query ($afterCursor: String) {
   search(query: "stars:>0", type: REPOSITORY, first: 5, after: $afterCursor) {

@@ -33,4 +33,4 @@ def save_to_csv(repositories, filename="repos.csv"):
                 repo["PRs Aceitos"]
             ])
 
-    print(f"📁 Dados salvos em: {filepath}")
+    print(f"Dados salvos em: {filepath}")
