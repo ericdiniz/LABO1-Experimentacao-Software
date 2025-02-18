@@ -1,101 +1,101 @@
 Nome,Dono,Descrição,Estrelas,Forks,Criado em,Última Atualização,Linguagem,Commits,Issues Abertas,Issues Fechadas,Releases,PRs Aceitos
-freeCodeCamp,freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,410170,38319,2014-12-24T17:49:19Z,2025-02-18T22:56:27Z,TypeScript,37574,18920,18745,0,24347
-free-programming-books,EbookFoundation,:books: Freely available programming books,350637,59787,2013-10-11T06:50:37Z,2025-02-18T22:32:52Z,HTML,9499,1159,1130,0,6787
-awesome,sindresorhus,😎 Awesome lists about all kinds of interesting topics,347597,27435,2014-07-11T13:42:37Z,2025-02-18T22:56:30Z,Não especificada,1154,347,335,0,661
-build-your-own-x,codecrafters-io,Master programming by recreating your favorite technologies from scratch.,336655,30506,2018-05-09T12:03:18Z,2025-02-18T22:49:12Z,Markdown,571,727,538,0,140
-public-apis,public-apis,A collective list of free APIs,327807,33439,2016-03-20T23:49:42Z,2025-02-18T22:58:12Z,Python,4535,651,603,0,1872
-coding-interview-university,jwasham,A complete computer science study plan to become a software engineer.,312039,72590,2016-06-06T02:34:12Z,2025-02-18T22:42:43Z,Não especificada,2511,510,458,0,415
-developer-roadmap,kamranahmedse,"Interactive roadmaps, guides and other educational content to help developers grow in their careers.",308602,37547,2017-03-15T13:45:52Z,2025-02-18T22:54:08Z,TypeScript,6212,2664,2520,1,3318
-system-design-primer,donnemartin,Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.,289488,46334,2017-02-26T16:15:28Z,2025-02-18T22:46:23Z,Python,332,319,87,0,199
+freeCodeCamp,freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,410173,38319,2014-12-24T17:49:19Z,2025-02-18T23:38:24Z,TypeScript,37575,18920,18745,0,24348
+free-programming-books,EbookFoundation,:books: Freely available programming books,350642,59787,2013-10-11T06:50:37Z,2025-02-18T23:33:12Z,HTML,9499,1159,1130,0,6787
+awesome,sindresorhus,😎 Awesome lists about all kinds of interesting topics,347600,27435,2014-07-11T13:42:37Z,2025-02-18T23:43:32Z,Não especificada,1154,347,335,0,661
+build-your-own-x,codecrafters-io,Master programming by recreating your favorite technologies from scratch.,336666,30505,2018-05-09T12:03:18Z,2025-02-18T23:46:52Z,Markdown,571,727,538,0,140
+public-apis,public-apis,A collective list of free APIs,327811,33439,2016-03-20T23:49:42Z,2025-02-18T23:33:59Z,Python,4535,651,603,0,1872
+coding-interview-university,jwasham,A complete computer science study plan to become a software engineer.,312041,72590,2016-06-06T02:34:12Z,2025-02-18T23:42:32Z,Não especificada,2511,510,458,0,415
+developer-roadmap,kamranahmedse,"Interactive roadmaps, guides and other educational content to help developers grow in their careers.",308606,37548,2017-03-15T13:45:52Z,2025-02-18T23:32:06Z,TypeScript,6212,2664,2520,1,3318
+system-design-primer,donnemartin,Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.,289492,46334,2017-02-26T16:15:28Z,2025-02-18T23:40:46Z,Python,332,319,87,0,199
 996.ICU,996icu,Repo for counting stars and contributing. Press F to pay respect to glorious developers.,270283,20929,2019-03-26T07:31:14Z,2025-02-18T15:27:10Z,Não especificada,3217,0,0,0,1068
-awesome-python,vinta,"An opinionated list of awesome Python frameworks, libraries, software and resources.",234427,24190,2014-06-27T21:00:06Z,2025-02-18T22:57:17Z,Python,1679,0,0,0,543
-react,facebook,The library for web and native user interfaces.,232373,46959,2013-05-24T16:15:54Z,2025-02-18T22:40:51Z,JavaScript,19997,13515,12741,103,11355
-project-based-learning,practical-tutorials,Curated list of project-based tutorials,218075,27839,2017-04-12T05:07:46Z,2025-02-18T22:57:00Z,Não especificada,570,190,78,0,182
-awesome-selfhosted,awesome-selfhosted,A list of Free Software network services and web applications which can be hosted on your own servers,217093,9927,2015-06-01T02:33:17Z,2025-02-18T22:39:30Z,Não especificada,6708,803,803,1,2393
-vue,vuejs,"This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",208372,33423,2013-07-29T03:24:51Z,2025-02-18T22:35:34Z,TypeScript,3593,10018,9664,249,1136
-Python,TheAlgorithms,All Algorithms implemented in Python,197424,45290,2016-07-16T09:44:01Z,2025-02-18T22:51:57Z,Python,3489,1556,1492,0,2911
+awesome-python,vinta,"An opinionated list of awesome Python frameworks, libraries, software and resources.",234432,24191,2014-06-27T21:00:06Z,2025-02-18T23:43:43Z,Python,1679,0,0,0,543
+react,facebook,The library for web and native user interfaces.,232375,46959,2013-05-24T16:15:54Z,2025-02-18T23:47:05Z,JavaScript,19997,13515,12741,103,11355
+project-based-learning,practical-tutorials,Curated list of project-based tutorials,218080,27841,2017-04-12T05:07:46Z,2025-02-18T23:47:39Z,Não especificada,570,190,78,0,182
+awesome-selfhosted,awesome-selfhosted,A list of Free Software network services and web applications which can be hosted on your own servers,217101,9927,2015-06-01T02:33:17Z,2025-02-18T23:36:30Z,Não especificada,6708,803,803,1,2393
+vue,vuejs,"This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",208373,33423,2013-07-29T03:24:51Z,2025-02-18T23:38:09Z,TypeScript,3593,10018,9664,249,1136
+Python,TheAlgorithms,All Algorithms implemented in Python,197426,45290,2016-07-16T09:44:01Z,2025-02-18T23:37:22Z,Python,3489,1556,1492,0,2911
 javascript-algorithms,trekhleb,📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings,190147,29082,2018-03-24T07:47:04Z,2025-02-18T22:39:26Z,JavaScript,1120,356,227,0,302
-tensorflow,tensorflow,An Open Source Machine Learning Framework for Everyone,188081,72934,2015-11-07T01:19:20Z,2025-02-18T22:58:21Z,C++,176159,40243,39425,213,29062
-linux,torvalds,Linux kernel source tree,187956,46334,2011-09-04T22:48:12Z,2025-02-18T22:22:55Z,C,1336186,0,0,0,10
-You-Dont-Know-JS,getify,A book series (2 published editions) on the JS language.,181024,31434,2013-11-16T02:37:24Z,2025-02-18T21:24:26Z,Não especificada,1899,936,855,0,367
-CS-Notes,CyC2018,:books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计,178915,49103,2018-02-13T14:56:24Z,2025-02-18T19:57:38Z,Não especificada,3781,596,448,0,374
-ohmyzsh,ohmyzsh,"🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",176157,25452,2009-08-28T18:15:37Z,2025-02-18T21:26:10Z,Shell,7476,4892,4759,0,3288
-computer-science,ossu,🎓 Path to a free self-taught education in Computer Science!,175446,21518,2014-05-04T00:18:39Z,2025-02-18T22:55:07Z,Não especificada,1066,642,628,0,281
+tensorflow,tensorflow,An Open Source Machine Learning Framework for Everyone,188081,72934,2015-11-07T01:19:20Z,2025-02-18T23:47:04Z,C++,176164,40243,39425,213,29067
+linux,torvalds,Linux kernel source tree,187957,46334,2011-09-04T22:48:12Z,2025-02-18T23:27:10Z,C,1336186,0,0,0,10
+You-Dont-Know-JS,getify,A book series (2 published editions) on the JS language.,181027,31434,2013-11-16T02:37:24Z,2025-02-18T23:39:42Z,Não especificada,1899,936,855,0,367
+CS-Notes,CyC2018,:books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计,178916,49103,2018-02-13T14:56:24Z,2025-02-18T23:37:36Z,Não especificada,3781,596,448,0,374
+ohmyzsh,ohmyzsh,"🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",176158,25452,2009-08-28T18:15:37Z,2025-02-18T23:04:43Z,Shell,7476,4892,4759,0,3288
+computer-science,ossu,🎓 Path to a free self-taught education in Computer Science!,175447,21518,2014-05-04T00:18:39Z,2025-02-18T23:37:45Z,Não especificada,1066,642,628,0,281
 AutoGPT,Significant-Gravitas,"AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",171626,44209,2023-03-16T09:21:07Z,2025-02-18T21:43:40Z,Python,6389,3141,2972,41,2579
-bootstrap,twbs,"The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",171412,77075,2011-07-29T21:19:00Z,2025-02-18T21:23:27Z,JavaScript,22936,22617,22118,89,8844
-flutter,flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,168716,27559,2015-03-06T22:54:58Z,2025-02-18T22:43:10Z,Dart,82840,103374,90217,7,40848
-vscode,microsoft,Visual Studio Code,167486,29474,2015-09-03T20:23:38Z,2025-02-18T22:37:56Z,TypeScript,129883,190502,181875,156,31161
-gitignore,github,A collection of useful .gitignore templates,164469,81667,2010-11-08T20:17:14Z,2025-02-18T22:36:12Z,Não especificada,3673,0,0,0,1573
+bootstrap,twbs,"The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",171413,77075,2011-07-29T21:19:00Z,2025-02-18T23:21:54Z,JavaScript,22936,22617,22118,89,8844
+flutter,flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,168716,27559,2015-03-06T22:54:58Z,2025-02-18T23:46:57Z,Dart,82840,103375,90220,7,40848
+vscode,microsoft,Visual Studio Code,167486,29474,2015-09-03T20:23:38Z,2025-02-18T23:31:28Z,TypeScript,129885,190503,181875,156,31163
+gitignore,github,A collection of useful .gitignore templates,164470,81668,2010-11-08T20:17:14Z,2025-02-18T23:39:52Z,Não especificada,3673,0,0,0,1573
 Python-100-Days,jackfrued,Python - 100天从新手到大师,160946,51571,2018-03-01T16:05:52Z,2025-02-18T22:52:22Z,Jupyter Notebook,454,660,114,0,13
-the-book-of-secret-knowledge,trimstray,"A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",158417,9522,2018-06-23T10:43:14Z,2025-02-18T22:53:21Z,Não especificada,1069,0,0,0,122
+the-book-of-secret-knowledge,trimstray,"A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",158421,9522,2018-06-23T10:43:14Z,2025-02-18T23:43:39Z,Não especificada,1069,0,0,0,122
 the-art-of-command-line,jlevy,"Master the command line, in one page",154753,14148,2015-05-20T15:11:03Z,2025-02-18T21:56:22Z,Não especificada,1218,254,136,0,317
 JavaGuide,Snailclimb,「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！,148158,44472,2018-05-07T13:27:00Z,2025-02-18T22:06:50Z,Java,5738,1072,1008,0,1135
-stable-diffusion-webui,AUTOMATIC1111,Stable Diffusion web UI,147988,26625,2022-08-22T14:05:26Z,2025-02-18T22:13:02Z,Python,7689,7745,5446,27,1871
+stable-diffusion-webui,AUTOMATIC1111,Stable Diffusion web UI,147990,26626,2022-08-22T14:05:26Z,2025-02-18T23:36:12Z,Python,7689,7745,5446,27,1871
 javascript,airbnb,JavaScript Style Guide,146139,24234,2012-11-01T23:13:50Z,2025-02-18T22:27:25Z,JavaScript,1983,1347,1252,0,811
-transformers,huggingface,"🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.",139648,26929,2018-10-29T13:56:00Z,2025-02-18T22:43:42Z,Python,18084,16665,15680,178,14594
-awesome-go,avelino,"A curated list of awesome Go frameworks, libraries and software",138359,11698,2014-07-06T13:42:15Z,2025-02-18T22:08:24Z,Go,5005,670,665,0,3394
-youtube-dl,ytdl-org,Command-line program to download videos from YouTube.com and other video sites,134256,10039,2010-10-31T14:35:07Z,2025-02-18T22:12:46Z,Python,18886,26687,22997,341,1639
-next.js,vercel,The React Framework,129473,27376,2016-10-05T23:32:51Z,2025-02-18T22:55:15Z,JavaScript,27326,22373,19676,1000,20813
-ollama,ollama,"Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.",127368,10198,2023-06-26T19:39:32Z,2025-02-18T22:59:35Z,Go,3882,6006,4666,114,1989
+transformers,huggingface,"🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.",139648,26929,2018-10-29T13:56:00Z,2025-02-18T22:43:42Z,Python,18084,16666,15680,178,14594
+awesome-go,avelino,"A curated list of awesome Go frameworks, libraries and software",138360,11698,2014-07-06T13:42:15Z,2025-02-18T23:43:40Z,Go,5005,670,665,0,3394
+youtube-dl,ytdl-org,Command-line program to download videos from YouTube.com and other video sites,134258,10039,2010-10-31T14:35:07Z,2025-02-18T23:23:31Z,Python,18886,26687,22997,341,1639
+next.js,vercel,The React Framework,129473,27376,2016-10-05T23:32:51Z,2025-02-18T23:49:36Z,JavaScript,27330,22373,19676,1000,20816
+ollama,ollama,"Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.",127372,10197,2023-06-26T19:39:32Z,2025-02-18T23:49:03Z,Go,3882,6006,4666,114,1989
 fucking-algorithm,labuladong,"刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why. ",126847,22439,2020-02-19T09:01:23Z,2025-02-18T19:09:12Z,Markdown,516,881,877,1,238
-go,golang,The Go programming language,125920,17404,2014-08-19T04:33:40Z,2025-02-18T22:45:09Z,Go,62293,65500,56360,0,1
+go,golang,The Go programming language,125921,17404,2014-08-19T04:33:40Z,2025-02-18T23:33:19Z,Go,62293,65502,56360,0,1
 30-seconds-of-code,Chalarangelo,Coding articles to level up your development skills,122675,11656,2017-11-29T17:35:03Z,2025-02-18T21:41:07Z,JavaScript,9737,296,296,11,821
 tech-interview-handbook,yangshun,💯 Curated coding interview preparation materials for busy software engineers,121919,14126,2016-07-05T05:00:48Z,2025-02-18T20:00:00Z,TypeScript,1300,107,70,0,466
-react-native,facebook,A framework for building native applications using React,120620,23736,2015-01-09T18:10:16Z,2025-02-18T22:17:46Z,C++,35145,26642,26048,374,886
-awesome-chatgpt-prompts,f,This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.,120586,15920,2022-12-05T13:54:13Z,2025-02-18T22:31:12Z,HTML,656,0,0,0,158
-Microsoft-Activation-Scripts,massgravel,"Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.",118533,11340,2020-01-12T23:03:34Z,2025-02-18T22:33:47Z,Batchfile,323,566,566,19,6
-scrcpy,Genymobile,Display and control your Android device,117757,10922,2017-11-21T18:00:27Z,2025-02-18T22:56:42Z,C,2778,5213,3014,44,109
+react-native,facebook,A framework for building native applications using React,120620,23736,2015-01-09T18:10:16Z,2025-02-18T23:46:56Z,C++,35145,26643,26048,374,886
+awesome-chatgpt-prompts,f,This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.,120587,15920,2022-12-05T13:54:13Z,2025-02-18T23:21:11Z,HTML,656,0,0,0,158
+Microsoft-Activation-Scripts,massgravel,"Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.",118539,11341,2020-01-12T23:03:34Z,2025-02-18T23:40:11Z,Batchfile,323,566,566,19,6
+scrcpy,Genymobile,Display and control your Android device,117760,10922,2017-11-21T18:00:27Z,2025-02-18T23:28:28Z,C,2778,5213,3014,44,109
 electron,electron,":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",115512,15467,2013-04-12T01:47:36Z,2025-02-18T22:52:27Z,C++,28980,20534,19671,1000,21495
-PowerToys,microsoft,Windows system utilities to maximize productivity,114895,6654,2019-05-01T17:44:02Z,2025-02-18T22:54:57Z,C#,7728,31520,25736,109,5067
-kubernetes,kubernetes,Production-Grade Container Scheduling and Management,113160,38542,2014-06-06T22:56:04Z,2025-02-18T21:48:24Z,Go,128100,46649,44773,722,60686
+PowerToys,microsoft,Windows system utilities to maximize productivity,114897,6653,2019-05-01T17:44:02Z,2025-02-18T23:23:01Z,C#,7730,31520,25736,109,5069
+kubernetes,kubernetes,Production-Grade Container Scheduling and Management,113162,38542,2014-06-06T22:56:04Z,2025-02-18T23:47:25Z,Go,128103,46649,44773,722,60687
 free-programming-books-zh_CN,justjavac,:books: 免费的计算机编程类中文书籍，欢迎投稿,112653,25127,2013-11-04T01:59:19Z,2025-02-18T19:16:06Z,Não especificada,924,0,0,3,282
-d3,d3,"Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",109823,22567,2010-09-27T17:22:42Z,2025-02-18T20:39:04Z,Shell,4507,2224,2215,194,491
-node,nodejs,Node.js JavaScript runtime ✨🐢🚀✨,109694,30018,2014-11-26T19:57:11Z,2025-02-18T21:40:21Z,JavaScript,43527,18780,17152,428,9746
-hello-algo,krahets,"《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version ongoing",109085,13499,2022-11-04T11:08:34Z,2025-02-18T22:39:32Z,Java,2071,253,235,9,900
+d3,d3,"Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",109824,22567,2010-09-27T17:22:42Z,2025-02-18T23:20:36Z,Shell,4507,2224,2215,194,491
+node,nodejs,Node.js JavaScript runtime ✨🐢🚀✨,109694,30018,2014-11-26T19:57:11Z,2025-02-18T23:40:07Z,JavaScript,43527,18780,17152,428,9746
+hello-algo,krahets,"《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version ongoing",109086,13499,2022-11-04T11:08:34Z,2025-02-18T23:47:49Z,Java,2071,253,235,9,900
 axios,axios,Promise based HTTP client for the browser and node.js,106349,10856,2014-08-18T22:30:27Z,2025-02-18T21:20:21Z,JavaScript,1634,4756,4196,87,935
-three.js,mrdoob,JavaScript 3D Library.,104371,34739,2010-03-23T18:58:01Z,2025-02-18T22:44:55Z,JavaScript,44898,12837,12421,165,13688
-create-react-app,facebook,Set up a modern web app by running one command.,103112,26098,2016-07-17T14:55:11Z,2025-02-18T22:16:12Z,JavaScript,2819,8371,6558,83,1949
+three.js,mrdoob,JavaScript 3D Library.,104369,34740,2010-03-23T18:58:01Z,2025-02-18T23:30:42Z,JavaScript,44898,12837,12421,165,13688
+create-react-app,facebook,Set up a modern web app by running one command.,103111,26098,2016-07-17T14:55:11Z,2025-02-18T23:05:14Z,JavaScript,2819,8371,6558,83,1949
 TypeScript,microsoft,TypeScript is a superset of JavaScript that compiles to clean JavaScript output.,102251,12452,2014-06-17T15:28:39Z,2025-02-18T22:13:57Z,TypeScript,36442,41695,36178,206,14535
 nodebestpractices,goldbergyoni,:white_check_mark:  The Node.js best practices list (July 2024),101785,10023,2017-09-15T08:33:19Z,2025-02-18T22:47:05Z,Dockerfile,3914,325,284,0,765
-deno,denoland,A modern runtime for JavaScript and TypeScript.,101782,5416,2018-05-15T01:34:26Z,2025-02-18T22:58:50Z,Rust,13195,12077,10035,310,12343
-rust,rust-lang,Empowering everyone to build reliable and efficient software.,101344,12598,2010-06-16T20:39:03Z,2025-02-18T22:10:50Z,Rust,281690,56598,46628,134,61231
-yt-dlp,yt-dlp,A feature-rich command-line audio/video downloader,100830,7775,2020-10-26T04:22:55Z,2025-02-18T22:39:49Z,Python,23000,8683,7183,103,2505
-langchain,langchain-ai,🦜🔗 Build context-aware reasoning applications,100818,16049,2022-10-17T02:58:36Z,2025-02-18T22:52:13Z,Jupyter Notebook,12688,8199,7852,803,13178
+deno,denoland,A modern runtime for JavaScript and TypeScript.,101782,5416,2018-05-15T01:34:26Z,2025-02-18T23:12:22Z,Rust,13196,12077,10035,310,12344
+rust,rust-lang,Empowering everyone to build reliable and efficient software.,101346,12599,2010-06-16T20:39:03Z,2025-02-18T23:32:47Z,Rust,281690,56598,46628,134,61231
+yt-dlp,yt-dlp,A feature-rich command-line audio/video downloader,100839,7775,2020-10-26T04:22:55Z,2025-02-18T23:40:23Z,Python,23000,8683,7183,103,2505
+langchain,langchain-ai,🦜🔗 Build context-aware reasoning applications,100820,16049,2022-10-17T02:58:36Z,2025-02-18T23:45:07Z,Jupyter Notebook,12688,8199,7852,803,13178
 HelloGitHub,521xueweihan,":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",98603,9721,2016-05-04T06:24:11Z,2025-02-18T22:39:24Z,Python,204,2750,2559,51,17
 terminal,microsoft,"The new Windows Terminal and the original Windows console host, all in the same place!",97074,8351,2017-08-11T18:38:22Z,2025-02-18T21:24:00Z,C++,4517,13090,11502,128,4022
-angular,angular,Deliver web apps with confidence 🚀,96973,25307,2014-09-18T16:12:01Z,2025-02-18T22:10:26Z,TypeScript,32174,28745,27228,405,3694
-material-ui,mui,Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.,94798,32270,2014-08-18T19:11:54Z,2025-02-18T20:26:12Z,TypeScript,26358,19824,18140,521,19871
-godot,godotengine,Godot Engine – Multi-platform 2D and 3D game engine,94089,21298,2014-01-04T16:05:36Z,2025-02-18T21:48:24Z,C++,71766,55052,43730,58,36254
+angular,angular,Deliver web apps with confidence 🚀,96973,25307,2014-09-18T16:12:01Z,2025-02-18T23:46:55Z,TypeScript,32174,28745,27228,405,3694
+material-ui,mui,Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.,94798,32269,2014-08-18T19:11:54Z,2025-02-18T20:26:12Z,TypeScript,26358,19824,18140,521,19871
+godot,godotengine,Godot Engine – Multi-platform 2D and 3D game engine,94089,21300,2014-01-04T16:05:36Z,2025-02-18T21:48:24Z,C++,71766,55053,43730,58,36254
 ant-design,ant-design,An enterprise-class UI design language and React UI library,93730,50968,2015-04-24T15:37:24Z,2025-02-18T22:39:49Z,TypeScript,29188,30904,29691,690,14968
-excalidraw,excalidraw,Virtual whiteboard for sketching hand-drawn like diagrams,92603,8622,2020-01-02T01:04:43Z,2025-02-18T22:17:25Z,TypeScript,3672,3852,2192,13,3558
+excalidraw,excalidraw,Virtual whiteboard for sketching hand-drawn like diagrams,92604,8622,2020-01-02T01:04:43Z,2025-02-18T23:30:44Z,TypeScript,3672,3852,2192,13,3558
 clean-code-javascript,ryanmcdermott,Clean Code concepts adapted for JavaScript,92478,10573,2016-11-25T22:25:41Z,2025-02-18T19:35:55Z,JavaScript,546,234,163,0,149
-free-for-dev,ripienaar,"A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",92312,9479,2015-03-18T21:06:26Z,2025-02-18T22:52:32Z,HTML,6150,0,0,0,2644
-papers-we-love,papers-we-love,Papers from the computer science community to read and discuss.,90926,5560,2013-12-15T14:31:41Z,2025-02-18T21:48:23Z,Shell,875,243,243,0,433
+free-for-dev,ripienaar,"A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",92314,9479,2015-03-18T21:06:26Z,2025-02-18T23:17:00Z,HTML,6150,0,0,0,2644
+papers-we-love,papers-we-love,Papers from the computer science community to read and discuss.,90929,5560,2013-12-15T14:31:41Z,2025-02-18T23:28:04Z,Shell,875,243,243,0,433
 java-design-patterns,iluwatar,Design patterns implemented in Java,90760,25911,2014-08-09T16:45:18Z,2025-02-18T21:26:50Z,Java,4183,942,816,0,1456
 frp,fatedier,A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.,90556,13383,2015-12-21T15:24:59Z,2025-02-18T19:29:04Z,Go,1256,3697,3644,101,654
-iptv,iptv-org,Collection of publicly available IPTV channels from all over the world,90299,3139,2018-11-14T22:00:57Z,2025-02-18T22:51:01Z,JavaScript,31544,9782,9726,0,6490
+iptv,iptv-org,Collection of publicly available IPTV channels from all over the world,90301,3139,2018-11-14T22:00:57Z,2025-02-18T23:36:39Z,JavaScript,31544,9783,9726,0,6490
 thefuck,nvbn,Magnificent app which corrects your previous console command.,90065,3580,2015-04-08T15:08:04Z,2025-02-18T21:40:40Z,Python,1651,745,471,17,481
 puppeteer,puppeteer,JavaScript API for Chrome and Firefox,89752,9041,2017-05-09T22:16:13Z,2025-02-18T20:19:29Z,TypeScript,5412,7072,6818,494,5137
-tauri,tauri-apps,"Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",89558,2717,2019-07-13T09:09:37Z,2025-02-18T23:01:00Z,Rust,5315,5188,4246,1000,4794
-Awesome-Hacking,Hack-with-Github,"A collection of various awesome lists for hackers, pentesters and security researchers",89023,8496,2016-03-30T15:47:10Z,2025-02-18T22:19:03Z,Não especificada,124,0,0,0,34
+tauri,tauri-apps,"Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",89561,2717,2019-07-13T09:09:37Z,2025-02-18T23:23:32Z,Rust,5315,5188,4246,1000,4794
+Awesome-Hacking,Hack-with-Github,"A collection of various awesome lists for hackers, pentesters and security researchers",89024,8496,2016-03-30T15:47:10Z,2025-02-18T23:10:40Z,Não especificada,124,0,0,0,34
 vue-element-admin,PanJiaChen,:tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin,88709,30173,2017-04-17T03:35:49Z,2025-02-18T17:14:00Z,Vue,1020,3597,2357,49,311
-pytorch,pytorch,Tensors and Dynamic neural networks in Python with strong GPU acceleration,86985,22888,2016-08-13T05:26:41Z,2025-02-18T23:00:08Z,Python,84521,48948,34427,58,5998
+pytorch,pytorch,Tensors and Dynamic neural networks in Python with strong GPU acceleration,86986,22891,2016-08-13T05:26:41Z,2025-02-18T23:47:35Z,Python,84526,48948,34430,58,5998
 neovim,neovim,Vim-fork focused on extensibility and usability,86282,5805,2014-01-31T13:39:22Z,2025-02-18T22:59:42Z,Vim Script,31863,12316,10761,41,14592
 every-programmer-should-know,mtdvio,A collection of (mostly) technical things every software developer should know about,86200,7153,2017-08-24T13:18:26Z,2025-02-18T22:54:41Z,Não especificada,284,51,22,0,99
-DeepSeek-V3,deepseek-ai,,85963,13814,2024-12-26T09:52:40Z,2025-02-18T22:59:44Z,Python,52,390,289,0,17
-storybook,storybookjs,"Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",85873,9313,2016-03-18T04:23:44Z,2025-02-18T22:56:18Z,TypeScript,66312,13141,11114,1000,10736
-tailwindcss,tailwindlabs,A utility-first CSS framework for rapid UI development.,85739,4323,2017-10-06T14:59:14Z,2025-02-18T22:39:30Z,TypeScript,6014,3946,3857,267,2734
-Web-Dev-For-Beginners,microsoft,"24 Lessons, 12 Weeks, Get Started as a Web Developer",85059,12329,2020-11-10T02:44:00Z,2025-02-18T23:00:06Z,JavaScript,1742,295,240,0,497
+DeepSeek-V3,deepseek-ai,,85968,13815,2024-12-26T09:52:40Z,2025-02-18T23:51:03Z,Python,52,390,289,0,17
+storybook,storybookjs,"Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",85873,9312,2016-03-18T04:23:44Z,2025-02-18T22:56:18Z,TypeScript,66312,13141,11114,1000,10736
+tailwindcss,tailwindlabs,A utility-first CSS framework for rapid UI development.,85738,4323,2017-10-06T14:59:14Z,2025-02-18T23:08:40Z,TypeScript,6014,3947,3857,267,2734
+Web-Dev-For-Beginners,microsoft,"24 Lessons, 12 Weeks, Get Started as a Web Developer",85059,12330,2020-11-10T02:44:00Z,2025-02-18T23:00:06Z,JavaScript,1742,295,240,0,497
 django,django,The Web framework for perfectionists with deadlines.,82370,31623,2012-04-28T02:47:18Z,2025-02-18T22:24:39Z,Python,33366,0,0,0,9528
-rustdesk,rustdesk,"An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",82340,11383,2020-09-28T15:36:08Z,2025-02-18T22:26:39Z,Rust,10269,3296,3247,27,3319
+rustdesk,rustdesk,"An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",82342,11383,2020-09-28T15:36:08Z,2025-02-18T23:39:35Z,Rust,10269,3296,3247,27,3319
 nvm,nvm-sh,Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions,82314,8082,2010-04-15T17:47:47Z,2025-02-18T21:48:22Z,Shell,2248,2252,1953,68,725
 app-ideas,florinpop17,A Collection of application ideas which can be used to improve your coding skills.,82158,9309,2019-02-25T18:36:56Z,2025-02-18T21:54:41Z,Não especificada,536,169,43,0,149
-bitcoin,bitcoin,Bitcoin Core integration/staging tree,82064,27660,2010-12-19T15:16:43Z,2025-02-18T20:52:34Z,C++,43943,8400,8012,54,14908
-svelte,sveltejs,web development for the rest of us,81421,4338,2016-11-20T18:13:05Z,2025-02-18T22:49:58Z,JavaScript,10002,7956,7192,393,5469
+bitcoin,bitcoin,Bitcoin Core integration/staging tree,82066,27660,2010-12-19T15:16:43Z,2025-02-18T23:51:43Z,C++,43943,8400,8012,54,14908
+svelte,sveltejs,web development for the rest of us,81422,4338,2016-11-20T18:13:05Z,2025-02-18T23:49:00Z,JavaScript,10002,7956,7192,393,5469
 animate.css,animate-css,🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.,81328,15958,2011-10-12T10:07:38Z,2025-02-18T20:52:45Z,CSS,664,873,841,22,315
 realworld,gothinkster,"""The mother of all demo apps"" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",81211,7233,2016-02-26T20:49:53Z,2025-02-18T22:15:32Z,TypeScript,974,538,495,0,433
-ui,shadcn-ui,"A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",81125,5259,2023-01-04T12:43:27Z,2025-02-18T21:42:25Z,TypeScript,643,2781,2006,37,471
-fastapi,fastapi,"FastAPI framework, high performance, easy to learn, fast to code, ready for production",81040,6899,2018-12-08T08:21:47Z,2025-02-18T22:23:55Z,Python,5572,3461,3411,200,2549
+ui,shadcn-ui,"A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",81125,5259,2023-01-04T12:43:27Z,2025-02-18T23:16:29Z,TypeScript,643,2781,2006,37,471
+fastapi,fastapi,"FastAPI framework, high performance, easy to learn, fast to code, ready for production",81041,6899,2018-12-08T08:21:47Z,2025-02-18T23:43:22Z,Python,5572,3461,3411,200,2549
 NextChat,ChatGPTNextWeb,✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows,80919,59091,2023-03-10T18:27:54Z,2025-02-18T22:21:40Z,TypeScript,3014,3372,2818,76,869
-opencv,opencv,Open Source Computer Vision Library,80623,55048,2012-07-19T09:40:17Z,2025-02-18T20:58:22Z,C++,34971,10999,8436,65,12718
+opencv,opencv,Open Source Computer Vision Library,80623,55048,2012-07-19T09:40:17Z,2025-02-18T23:46:58Z,C++,34971,10999,8436,65,12718
 gin,gin-gonic,"Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.",80359,8034,2014-06-16T23:57:25Z,2025-02-18T22:58:59Z,Go,1803,2288,1647,26,1046

@@ -14,7 +14,7 @@ def fetch_popular_repositories():
     all_repositories = []
     after_cursor = None
     max_attempts = 5
-    timeout_seconds = 30
+    timeout_seconds = 90
 
     while len(all_repositories) < 100:
         variables = {"afterCursor": after_cursor}
