@@ -14,9 +14,9 @@ def fetch_popular_repositories():
     all_repositories = []
     after_cursor = None
     max_attempts = 5
-    timeout_seconds = 90
+    timeout_seconds = 180
 
-    while len(all_repositories) < 100:
+    while len(all_repositories) < 1000:
         variables = {"afterCursor": after_cursor}
         attempt = 0
 
@@ -57,12 +57,13 @@ def fetch_popular_repositories():
                             "PRs Aceitos": node.get("pullRequests", {}).get("totalCount", 0),
                         })
 
-                    print(f"{len(all_repositories)}/100 repositórios coletados...")
+                    print(f"{len(all_repositories)}/1000 repositórios coletados...")
 
-                    if page_info.get("hasNextPage") and len(all_repositories) < 100:
-                        after_cursor = page_info["endCursor"]
+                    # 🔥 Correção: Agora verificamos até 1000 repositórios
+                    if page_info.get("hasNextPage") and len(all_repositories) < 1000:
+                        after_cursor = page_info.get("endCursor")  # 🔥 Atualizando cursor corretamente
                     else:
-                        print("Coleta de repositórios concluída!")
+                        print("✅ Coleta de repositórios concluída!")
                         return all_repositories
 
                     break
@@ -98,5 +99,5 @@ def fetch_popular_repositories():
                 print(f"Erro na requisição: {e}")
                 return None
 
-    print("Coleta de repositórios concluída!")
+    print("✅ Coleta de repositórios concluída!")
     return all_repositories
