@@ -9,7 +9,7 @@ GITHUB_API_URL = "https://api.github.com/graphql"
 
 def main():
     """Executa a consulta GraphQL e salva os 100 repositórios mais populares no CSV."""
-    print("\nBuscando os 100 repositórios com mais estrelas no GITHUB...\n")
+    print("\nBuscando os 1000 repositórios com mais estrelas no GITHUB...\n")
     repos = fetch_popular_repositories()
 
     if repos:
