@@ -4,7 +4,6 @@ import os
 OUTPUT_DIR = "outputs"
 
 def save_to_csv(repositories, filename="repos.csv"):
-    """Salva a lista de repositórios em um arquivo CSV dentro da pasta outputs/."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     filepath = os.path.join(OUTPUT_DIR, filename)
 

@@ -59,11 +59,10 @@ def fetch_popular_repositories():
 
                     print(f"{len(all_repositories)}/1000 repositórios coletados...")
 
-                    # 🔥 Correção: Agora verificamos até 1000 repositórios
                     if page_info.get("hasNextPage") and len(all_repositories) < 1000:
-                        after_cursor = page_info.get("endCursor")  # 🔥 Atualizando cursor corretamente
+                        after_cursor = page_info.get("endCursor")
                     else:
-                        print("✅ Coleta de repositórios concluída!")
+                        print("Coleta de repositórios concluída!")
                         return all_repositories
 
                     break
@@ -99,5 +98,5 @@ def fetch_popular_repositories():
                 print(f"Erro na requisição: {e}")
                 return None
 
-    print("✅ Coleta de repositórios concluída!")
+    print("Coleta de repositórios concluída!")
     return all_repositories
