@@ -54,8 +54,8 @@ axes[1, 1].set_ylabel("Número de Repositórios")
 # RQ 05 - Linguagens Populares
 ax5 = sns.barplot(x=df["Linguagem"].value_counts().head(10).index,
                   y=df["Linguagem"].value_counts().head(10).values,
-                  hue=df["Linguagem"].value_counts().head(10).index,  # Definir x como hue
-                  ax=axes[2, 0], palette="Blues_r", legend=False)  # Remover legenda
+                  hue=df["Linguagem"].value_counts().head(10).index,
+                  ax=axes[2, 0], palette="Blues_r", legend=False)
 axes[2, 0].set_title("Top 10 Linguagens em Repositórios Populares", fontsize=12)
 axes[2, 0].set_xlabel("Linguagem")
 axes[2, 0].set_ylabel("Número de Repositórios")
