@@ -68,5 +68,38 @@ axes[2, 1].set_title("Distribuição do Percentual de Issues Fechadas", fontsize
 axes[2, 1].set_xlabel("Percentual de Issues Fechadas (%)")
 axes[2, 1].set_ylabel("Número de Repositórios")
 
+languages_popular = ["Python", "JavaScript", "Java", "C#", "C++", "Go", "Rust", "TypeScript"]
+
+# RQ 07 - Bonus
+df_filtered = df.dropna(subset=["PRs Aceitos", "Releases", "Tempo desde última atualização (dias)", "Linguagem"])
+df_filtered["Linguagem Popular"] = df_filtered["Linguagem"].apply(lambda x: x if x in languages_popular else "Outras")
+
+grouped_data = df_filtered.groupby("Linguagem Popular").agg({
+    "PRs Aceitos": "mean",
+    "Releases": "mean",
+    "Tempo desde última atualização (dias)": "mean"
+}).reset_index()
+
+fig, axes = plt.subplots(1, 3, figsize=(18, 5))
+
+sns.barplot(data=grouped_data, x="Linguagem Popular", y="PRs Aceitos", ax=axes[0], palette="coolwarm")
+axes[0].set_title("Média de Pull Requests Aceitos por Linguagem")
+axes[0].set_xlabel("Linguagem")
+axes[0].set_ylabel("Média de PRs Aceitos")
+axes[0].tick_params(axis='x', rotation=45)
+
+sns.barplot(data=grouped_data, x="Linguagem Popular", y="Releases", ax=axes[1], palette="coolwarm")
+axes[1].set_title("Média de Releases por Linguagem")
+axes[1].set_xlabel("Linguagem")
+axes[1].set_ylabel("Média de Releases")
+axes[1].tick_params(axis='x', rotation=45)
+
+sns.barplot(data=grouped_data, x="Linguagem Popular", y="Tempo desde última atualização (dias)", ax=axes[2], palette="coolwarm")
+axes[2].set_title("Média de Tempo desde Última Atualização por Linguagem")
+axes[2].set_xlabel("Linguagem")
+axes[2].set_ylabel("Média de Dias desde Última Atualização")
+axes[2].tick_params(axis='x', rotation=45)
+
+
 plt.tight_layout()
 plt.show()
